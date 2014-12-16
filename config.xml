@@ -14,6 +14,7 @@
     <author href="http://gauravgoyal.in" email="me@gauravgoyal.in">
         Gaurav Goyal
     </author>
+
     <preference name="permissions" value="none"/>
  
 </widget>
