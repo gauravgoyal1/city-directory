@@ -47,6 +47,7 @@ var app = {
         var self = this;
         this.registerEvents();
         this.store = new MemoryStore(function() {
+            self.showAlert('Directory Loaded', 'Sucess');
             self.route();
         });
     }

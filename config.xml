@@ -14,10 +14,6 @@
     <author href="http://gauravgoyal.in" email="me@gauravgoyal.in">
         Gaurav Goyal
     </author>
- 
-    <feature name="http://api.phonegap.com/1.0/file"/>
-    <feature name="http://api.phonegap.com/1.0/media"/>
-    <feature name="http://api.phonegap.com/1.0/network"/>
-    <feature name="http://api.phonegap.com/1.0/notification"/>
+    <preference name="permissions" value="none"/>
  
 </widget>
