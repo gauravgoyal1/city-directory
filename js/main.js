@@ -14,7 +14,7 @@ var app = {
             $('body').html(new HomeView(this.store).render().el);
             return;
         }
-        var match = hash.match(/[A-Za-z]+/);
+        var match = hash.match(/[A-Za-z\s]+/);
         if (match) {
             this.store.findByCountry(match, function(country) {
                 $('body').html(new CountryView(country).render().el);
